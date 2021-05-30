@@ -1,3 +1,4 @@
+//2019-06-07 작성.
 #include <Wire.h>
 #include <SoftwareSerial.h>
 #include <doxygen.h>
@@ -6,7 +7,7 @@
 SoftwareSerial mySerial(5,6);
 #define SSID "ASUS"  
 
-#define PASSWORD "kp960531"  
+#define PASSWORD "PASSWORD" // WiFi Password  
 
 #define SERVERIP "192.168.0.31"
 
